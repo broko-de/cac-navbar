@@ -86,9 +86,18 @@
     display: block;
   }
 
-  main{
+  .container{
       min-height: 900px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
   }
+
+  .creditos{
+    color:red;
+  }
+
   /* Tablet menu */
   @media all and (min-width: 600px) {
     .menu {
